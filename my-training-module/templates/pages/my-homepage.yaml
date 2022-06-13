@@ -1,0 +1,8 @@
+title: my-homepage
+templateScript: /my-training-module/templates/pages/my-homepage.ftl
+renderType: freemarker
+dialog: my-training-module:pages/my-homepage
+visible: true
+areas:
+  main:
+    type: noComponent

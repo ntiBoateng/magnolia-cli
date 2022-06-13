@@ -1,0 +1,22 @@
+!content-type:book
+name: bookshelf-app
+icon: icon-content-app 
+subApps:
+  detail:
+    form:
+      properties:
+        ed: 
+          fieldType: checkbox
+        title: 
+          rows: 2
+        description: 
+          rows: 5 
+          maxLength: 5000
+        publish_date: 
+          fieldType: date
+        isbn13: 
+          maxLength: 13
+          validators:
+            - name: isbn13
+              class: info.magnolia.ui.form.validator.definition.RegexpValidatorDefinition
+              pattern: '97(8|9)[0-9]{9}(\d|X)'

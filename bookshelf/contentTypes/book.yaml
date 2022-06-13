@@ -1,0 +1,19 @@
+datasource: 
+  workspace: books
+  rootPath: /
+  namespaces:
+    lib: https://www.magnolia-travel.com/jcr/1.0/lib
+  autoCreate: true
+
+model: 
+  nodeType: lib:book
+  properties: 
+    - name: authors
+    - name: ed 
+      type: Boolean
+    - name: title
+    - name: description
+    - name: publisher
+    - name: publish_date 
+      type: Date
+    - name: isbn13
