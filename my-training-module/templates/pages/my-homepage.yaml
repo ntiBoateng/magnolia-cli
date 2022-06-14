@@ -5,4 +5,22 @@ dialog: my-training-module:pages/my-homepage
 visible: true
 areas:
   main:
-    type: noComponent
+    availableComponents:
+      banner:
+        id: my-training-module:components/banner
+      textImage:
+        id: my-training-module:components/textImage
+      blockQuote:
+        id: my-training-module:components/blockQuote 
+  header:
+    availableComponents:
+      banner:
+        id: my-training-module:components/banner
+  footer:
+    availableComponents:
+      textImage:
+        id: my-training-module:components/textImage
+      banner:
+        id: my-training-module:components/banner
+      blockQuote:
+        id: my-training-module:components/blockQuote

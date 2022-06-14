@@ -27,13 +27,19 @@
       [#-- ${resfn.css(["/my-training-module/.*css"])!} --]
   </head>
   <body class="my-homepage ${cmsfn.language()}">
+[@cms.area name="header" /]
+  <center>
 
-    <div class="container">
+
+  <div class="container">
       <h1>my-homepage works!</h1>
       <p>Consider working with the best enterprenuer in the world like Elon Musk ...</p>
     </div>
+    
+    </center>
  [@cms.area name="main" /]
     [#-- use resfn to load all js which matches the globbing pattern or link resources manually or via theme --]
     [#-- ${resfn.js(["/my-training-module/.*js"])!} --]
+  [@cms.area name="footer" /]
   </body>
 </html>
