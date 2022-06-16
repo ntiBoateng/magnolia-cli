@@ -1,6 +1,6 @@
 # Automatically generated dialog with few most often used fields (text, right, link, DAM image, multivalue, link to app, select). Feel free to modify them for your specific component.
 
-label: banner
+label: textImage
 form:
   properties:
     title:
@@ -10,5 +10,8 @@ form:
     image:
       label: Image
       $type: damLinkField
-    
-    !include:/my-training-module/dialogs/imageLinkField.yaml
+    caption:
+      $type: textField
+      label: Image Caption
+      i18n: true
+   

@@ -1,0 +1,4 @@
+title: text
+renderType: freemarker
+templateScript: /my-training-module/templates/components/text.ftl
+dialog: my-training-module:components/text

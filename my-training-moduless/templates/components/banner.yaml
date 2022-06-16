@@ -1,0 +1,4 @@
+title: banner
+renderType: freemarker
+templateScript: /my-training-module/templates/components/banner.ftl
+dialog: my-training-module:components/banner

@@ -1,14 +1,15 @@
 # Automatically generated dialog with few most often used fields (text, right, link, DAM image, multivalue, link to app, select). Feel free to modify them for your specific component.
 
-label: banner
+label: blockQuote
 form:
   properties:
     title:
       $type: textField
       label: Title
       i18n: true
-    image:
-      label: Image
-      $type: damLinkField
     
-    !include:/my-training-module/dialogs/imageLinkField.yaml
+    desc:
+      label: Description
+      $type: richTextField
+      i18n: true
+    

@@ -1,0 +1,4 @@
+title: blockQuote
+renderType: freemarker
+templateScript: /my-training-module/templates/components/blockQuote.ftl
+dialog: my-training-module:components/blockQuote

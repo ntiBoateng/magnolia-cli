@@ -1,4 +1,5 @@
 title: my-homepage
+# templateScript: /mtk/templates/pages/my-homepage.ftl
 templateScript: /my-training-module/templates/pages/my-homepage.ftl
 renderType: freemarker
 dialog: my-training-module:pages/my-homepage
@@ -12,10 +13,40 @@ areas:
         id: my-training-module:components/textImage
       blockQuote:
         id: my-training-module:components/blockQuote 
+        id: my-training-module:components/blockQuote
+      html:
+        id: my-training-module:components/html
+      styledIntroText:
+        id: my-training-module:components/styledIntroText
+      text:
+        id: my-training-module:components/text
+      mtkVideo:
+        id: mtk2:components/video
+      pageIntro:
+        id: mtk2:components/pageIntro
+      teaser:
+        id: mtk2:components/teaser
+      link:
+        id: mtk2:components/link
+      textImage:
+        id: mkt2:components/textImage
+      linkList:
+        id: mtk2:components/linkList
+      html:
+        id: mtk2:components/html
+
   header:
     availableComponents:
       banner:
         id: my-training-module:components/banner
+      textImage:
+        id: mtk2:components/textImage
+      mtkVideo:
+        id: mtk2:components/video
+      link:
+        id: mtk2:components/link
+      html:
+        id: mtk2:components/html
   footer:
     availableComponents:
       textImage:
@@ -24,3 +55,12 @@ areas:
         id: my-training-module:components/banner
       blockQuote:
         id: my-training-module:components/blockQuote
+      text:
+        id: my-training-module:components/text
+      link:
+        id: mtk2:components/link
+      html:
+        id: mtk2:components/html
+      linkList:
+        id: mtk2:components/linkList
+        

@@ -14,8 +14,7 @@
     <div class="container bg-gradient-opacity-lefted">
       <div class="column">
         <div>
-            <h2>${content.title!}</h2>
-            
+            <h2>${cmsfn.decode(content).title!}</h2>
         </div>
       </div>
     </div>
